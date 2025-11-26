@@ -1,0 +1,70 @@
+# Build results
+bin/
+obj/
+out/
+publish/
+app/publish/
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+
+# NuGet Packages
+*.nupkg
+packages/
+.nuget/
+
+# IIS Express
+/.vs/
+
+# Docker artifacts
+docker-compose.override.yml
+docker-volume/
+*.pid
+*_db_data/
+*_data/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Certificates (não suba para o Git)
+*.pfx
+*.cer
+*.key
+*.crt
+
+# Secrets (simulação em aula)
+secrets.json
+
+# Logs do Jenkins (se aparecerem)
+*.jenkins
+jenkins_home/
+
+# Coverage
+coverage/
+coverage.cobertura.xml
+TestResults/
+
+# JetBrains Rider
+.idea/
