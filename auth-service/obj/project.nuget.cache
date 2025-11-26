@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "GUz/OnFdeZ2dM6tu9FsNkBNE+6drQ+KI1u98n1K3OUkk10OxYm/jB0c82dh3U0GlcipjpDl4eCu9xgK/GGPw1A==",
+  "success": true,
+  "projectFilePath": "/home/caiolucasb/Documentos/Fiap/vinheria-agnello-fase-7/auth-service/auth-service.csproj",
+  "expectedPackageFiles": [
+    "/home/caiolucasb/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.0/microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
+    "/home/caiolucasb/.nuget/packages/microsoft.identitymodel.abstractions/7.2.0/microsoft.identitymodel.abstractions.7.2.0.nupkg.sha512",
+    "/home/caiolucasb/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.2.0/microsoft.identitymodel.jsonwebtokens.7.2.0.nupkg.sha512",
+    "/home/caiolucasb/.nuget/packages/microsoft.identitymodel.logging/7.2.0/microsoft.identitymodel.logging.7.2.0.nupkg.sha512",
+    "/home/caiolucasb/.nuget/packages/microsoft.identitymodel.protocols/7.0.3/microsoft.identitymodel.protocols.7.0.3.nupkg.sha512",
+    "/home/caiolucasb/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/7.0.3/microsoft.identitymodel.protocols.openidconnect.7.0.3.nupkg.sha512",
+    "/home/caiolucasb/.nuget/packages/microsoft.identitymodel.tokens/7.2.0/microsoft.identitymodel.tokens.7.2.0.nupkg.sha512",
+    "/home/caiolucasb/.nuget/packages/system.identitymodel.tokens.jwt/7.2.0/system.identitymodel.tokens.jwt.7.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
