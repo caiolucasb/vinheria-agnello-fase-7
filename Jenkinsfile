@@ -9,8 +9,9 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                echo "Realizando checkout do repositório..."
-                git branch: 'main', url: 'git@github.com:caiolucasb/vinheria-agnello-fase-7.git'
+                sshagent(credentials: ['898ee6b8-de51-47d8-aabb-c1d9a280f30b']) {
+                    git branch: 'main', url: 'git@github.com:caiolucasb/vinheria-agnello-fase-7.git'
+                }
             }
         }
 
