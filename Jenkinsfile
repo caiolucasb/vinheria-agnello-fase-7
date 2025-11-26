@@ -10,7 +10,12 @@ pipeline {
         stage('Checkout') {
             steps {
                 sshagent(credentials: ['898ee6b8-de51-47d8-aabb-c1d9a280f30b']) {
-                    git branch: 'main', url: 'git@github.com:caiolucasb/vinheria-agnello-fase-7.git'
+                    sh '''
+                        rm -rf vinheria-agnello-fase-7
+                        git clone git@github.com:caiolucasb/vinheria-agnello-fase-7.git
+                        cd vinheria-agnello-fase-7
+                        git checkout main
+                    '''
                 }
             }
         }
